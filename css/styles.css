@@ -1,19 +1,36 @@
-body {
-    background-color: #eaf6f6;
+body{
+    font-family: 'Montserrat',Helvetica Neue,Arial,sans-serif; 
+    margin: 0;
+    text-align: center;
 }
 
 h1 {
-    color: #66bfbf;
+    margin-top: 0;
+    font-size: 500%;
 }
 
-h3 {
-    color: #66bfbf;
+.top-container {
+    background-color: #E9D5DA;
+    position: relative;
+    padding-top: 100px;
 }
 
-hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-color: grey;
-    border-width: 5px;
-    width: 5%;
+.middle-container {
+
+}
+
+.bottom-container {
+
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 200px;
+    top: 50px;
 }
